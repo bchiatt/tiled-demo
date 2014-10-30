@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Desert" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="coin" tilewidth="32" tileheight="32">
+  <image source="coin.png" width="192" height="32"/>
+ </tileset>
+ <layer name="Background" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEOQEAQRdFFhQoVkk1Q4f//z/uEHcmOldzitJO5zYshhAggSSW1UZNwd5ZFVqeOVjqjPuHuJrscP+845ZL75x3e6ChLrg72qqwO9uqdQUajqYC/YeO9V7l471Uu3nsFAADwlQeh0KQt
+  </data>
+ </layer>
+ <layer name="Plants" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1kEKgDAMRNHepEu9/wml25CSthYyE+aBKzfzlYqt1fJkD7jE62BsY+nowX3EzZ5urgxvcN9u9HZmN8x421G33oDeFT17hvfDsHFHdEbQGmff9pUOtBYR+Q/5jO/+iyK3rLDb2VoY/3NPVOkYqnSIiAiGDyvCCpU=
+  </data>
+ </layer>
+ <layer name="Ground" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAIA7DpwL9QDOzmIG3SBAAA4MY8CQAAzQKzowUV
+  </data>
+ </layer>
+ <objectgroup name="Money">
+  <object gid="49" x="64" y="320">
+   <properties>
+    <property name="alpha" value="0.5"/>
+    <property name="body.gravity.y" value="100"/>
+    <property name="rotation" value="25"/>
+   </properties>
+  </object>
+  <object gid="49" x="192" y="320"/>
+  <object gid="49" x="320" y="448"/>
+  <object gid="49" x="480" y="224" rotation="2.27683"/>
+  <object gid="49" x="128" y="448"/>
+  <object gid="49" x="96" y="384"/>
+  <object gid="49" x="96" y="480"/>
+  <object gid="49" x="192" y="480"/>
+  <object gid="49" x="256" y="384"/>
+  <object gid="49" x="224" y="288">
+   <properties>
+    <property name="alpha" value="0.5"/>
+    <property name="body.velocity.x" value="50"/>
+   </properties>
+  </object>
+  <object gid="49" x="160" y="224"/>
+  <object gid="49" x="320" y="320"/>
+  <object gid="49" x="320" y="448"/>
+  <object gid="49" x="192" y="416"/>
+ </objectgroup>
+</map>
